@@ -42,7 +42,7 @@ h3 {
 
 .header-logo h1 {
     font-family: "Roboto", arial;
-    font-size: 15;
+    font-size: 22px;
     color: #E5E7EB;
     
 }
@@ -70,6 +70,9 @@ h3 {
     padding: 12px;
     font-family: "Roboto", arial;
 }
+.header-link a:hover {
+    opacity: 0.8;
+}
 /* Intro */
 .intro {
     display: flex;
@@ -78,7 +81,7 @@ h3 {
     align-items: center;
     justify-content: center;
     padding: 90px;
-    margin-top: 175px;
+    margin-top: 170px;
 }
 .intro-cta {
     flex-basis: 400px;
@@ -125,6 +128,12 @@ h3 {
     height: 350px;
 }
 
+.intro-image img:hover {
+    border: 2px solid gold;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
 .content {
     align-items: center;
     
@@ -154,6 +163,9 @@ h2 {
     margin: 5px 20px 0px 20px;
 }
 
+.content-info img:hover {
+    opacity: 0.8;
+}
 
 .content-info p {
     font-weight: bold;
@@ -191,7 +203,7 @@ b {
     align-items: center;
     display: flex;
     border-radius: 5px;
-    background-color: rgb(244, 117, 117);
+    background-color: rgb(236, 104, 104);
     margin-bottom: 120px;
 }
 .sign-item {
