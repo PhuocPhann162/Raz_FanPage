@@ -34,24 +34,28 @@ h3 {
 }
 
 .header-logo img {
-    width: 84px;
-    height: 84px;
+    width: 70px;
+    height: 70px;
     margin-right: auto;
     margin-top: 25px;
 }
 
 .header-logo h1 {
     font-family: "Roboto", arial;
-    font-size: 21;
+    font-size: 15;
     color: #E5E7EB;
     
 }
 
 .navbar {
     display: flex;
-    padding: 20px 0px 20px 100px; 
+    padding: 5px 0px 5px 100px; 
     align-items: center;
     background-color: #1F2937;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
 }
 
 .header-link {
@@ -74,6 +78,7 @@ h3 {
     align-items: center;
     justify-content: center;
     padding: 90px;
+    margin-top: 175px;
 }
 .intro-cta {
     flex-basis: 400px;
@@ -182,11 +187,12 @@ b {
 .sign-up {
     
     margin: 50px 200px;
-    padding: 10px 80px;
+    padding: 20px 90px;
     align-items: center;
     display: flex;
     border-radius: 5px;
     background-color: rgb(244, 117, 117);
+    margin-bottom: 120px;
 }
 .sign-item {
     flex: 1;
@@ -225,4 +231,8 @@ b {
     font-family: "Roboto",arial;
     color: #fff;
     padding: 8px 8px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
